@@ -1,0 +1,70 @@
+/* Mobile-first styles FTW */
+@media all and (min-width:600px) {
+	.group-logo {
+		float: left;
+		width: 50%;
+	}
+	.group-logo img {
+		float: right;
+		margin: 10px 40px 0 0;
+	}
+	.signup-form {
+		float: left;
+		width: 40%;
+	}
+	.footer-left {
+		float: left;
+		overflow: hidden;
+		text-align: left;
+		margin: 0;
+	}
+	.footer-right {
+		float: right;
+		overflow: hidden;
+		text-align: right;
+	}
+
+	/* Type */
+	h1 {
+  font-size: 48px;
+	}
+
+	h2 {
+	  font-size: 32px;
+	}
+
+	.chunky-h2 {
+	  max-width: 100%;
+	  background: #EBEBEB;
+	  padding: 10px 20px;
+	  margin: 0 0 20px 0;
+	}
+
+	h3 {
+	  font-size: 24px;
+	  font-weight: 600;
+	  font-style: normal;
+	}
+
+	h4 {
+	  font-size: 18px;
+	  font-weight: 600;
+	  font-style: normal;
+	}
+
+	h5 {
+	  font-size: 18px;
+	  font-style: normal;
+	  font-weight: normal;
+	}
+
+	p {
+	  font-size: 18px;
+	}
+}
+
+@media all and (min-width:769px) {
+	article {
+		width: 70%;
+	}
+	}

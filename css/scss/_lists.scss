@@ -1,0 +1,49 @@
+.event-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.event-list > li {
+	position: relative;
+	width: 100%;
+	padding: 0 0 5px 0;
+	margin: 0 0 $padding 0;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.event-list > li:last-child {
+	padding: 0 0 5px 0;
+	margin: 0;
+	border-bottom: none;
+}
+
+.rsvp-badge {
+	float: right;
+	width: 80px;
+	height: 112px;
+	margin: 0 0 0 $padding/2;
+}
+
+.attended-badge {
+	float: right;
+	width: 80px;
+	height: 92px;
+	background: url(/img/red-octogon.png);
+	background-repeat: no-repeat;
+	margin: 0 0 $padding/2 $padding/2;
+}
+
+.nolist{
+	list-style:none;
+	padding-left: 0;
+	margin: 10px 0 20px 0;
+}
+
+ul.nolist > li {
+	margin: 0 0 5px 0;
+}
+
+ul.nolist > li p {
+	margin: 0;
+}

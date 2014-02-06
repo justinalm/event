@@ -1,0 +1,29 @@
+.aligncenter{
+  text-align:center;
+}
+
+.alignright{
+	text-align:right;
+}
+
+.clear{
+	clear:both;
+}
+
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+.valign{
+	vertical-align:middle;
+}
+
+hr{
+	border:none;
+	border-bottom:1px solid #EBEBEB;
+	margin:$padding 0;
+}
