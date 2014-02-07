@@ -1,16 +1,15 @@
 ---
-layout: default
-title: Caravan – Oustanding event management
+layout: admin
+title: Admin – Oustanding event management
 ---
 
 <div class="masthead" style="background-image: url(/img/brand-application.jpg);">
+
   <div class="masthead-content-wrapper">
     <div class="group-info">
-      <a href="/" title="Group front page">
-          <div class="group-logo">
-          <img src="img/caravan-mark.png" class="img-responsive" alt="Responsive image"/>
-        </div>
-      </a><!-- group-logo -->
+      <div class="group-logo">
+        <img src="/img/caravan-mark.png" class="img-responsive" alt="Responsive image"/>
+      </div><!-- group-logo -->
       <div class="signup-form">
         <h1><img src="/img/caravan-logo-inline.png" alt="Responsive image"/></h1>
         <p>Meetup is terrible for large groups. <strong>Caravan is not.</strong> Caravan provides your group with a simple, beautiful way to post events and take RSVPs. There is no group messaging and no clutter.</p>
@@ -33,30 +32,41 @@ title: Caravan – Oustanding event management
 
   <!-- this section is for upcoming events -->
   <section>
+
     <h2 class="chunky-h2">Upcoming Events</h2>
       <ul class="event-list">
         <li>
+
           <div class="rsvp-badge">
             <img src="/img/rsvp.png" alt="Responsive image" width="80"/> 
-            <p class="rsvp-text"><span class="rsvp-count">8888</span></strong><br>
+            <p class="rsvp-text editing-bg"><span class="rsvp-count">8888</span></strong><br>
             folks going!</p>
           </div>
+
             <div class="event-info">
-              <p class="time">Tuesday Feb. 11, 2014
+              <p class="time editing-bg">Tuesday Feb. 11, 2014
                 <br>At 6:30pm</p>
-              <h2><a class="event-title" href="/single" title="Single event listing">Image Handling for the Mobile Web and Contributing to jQuery</a></h2>
-              <p>VanCocoa is back, featuring our first international speaker! Patrick B. Gibson will be joining us from esteemed design studio Pacific Helm. We'll have two talks of roughly 40 minutes each, then off for beer.</p>
-              <h3>Who’s Speaking?</h3>
-              <ul class="nolist">
-                <li><p><a href="#">Patrick B. Gibson, Pacific Helm</a> — Homemade Apple UI: Tasty Collection Views</p></li>
-                <li><p><a href="#">Allen Pike, Steamclock</a> — JavaScript in your Native Apps</p></li>
-              </ul>
+              <h2 class="editing-bg"><a class="event-title" href="/single" title="Single event listing">Image Handling for the Mobile Web and Contributing to jQuery</a></h2>
+                <p class="editing-bg">VanCocoa is back, featuring our first international speaker! Patrick B. Gibson will be joining us from esteemed design studio Pacific Helm. We'll have two talks of roughly 40 minutes each, then off for beer.</p>
+
+                <h3>Who’s Speaking?</h3>
+                <ul class="nolist editing-bg">
+                  <li><p><a href="#">Patrick B. Gibson, Pacific Helm</a> — Homemade Apple UI: Tasty Collection Views</p></li>
+                  <li><p><a href="#">Allen Pike, Steamclock</a> — JavaScript in your Native Apps</li>
+                </ul>
+              
               <h3>Event Location</h3>
-              <p>SFU Harbour Centre downtown, at 555 W Hastings St, Room 1800.</p>
+              <p class="editing-bg">SFU Harbour Centre downtown, at 555 W Hastings St, Room 1800.</p>
+
             </div><!-- event-info -->
           <div id="map-canvas" class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
+          <!-- these are the edit buttons -->
+          <a href="/admin" class="btn-primary" title="add an event">save</a>&nbsp;
+          <a href="#" title="delete event">cancel</a>
+
         </li>
       </ul>
   </section><!-- end of the upcoming events section -->
@@ -86,6 +96,7 @@ title: Caravan – Oustanding event management
           <div class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
         </li>
         <li>
           <div class="attended-badge"> 
@@ -108,6 +119,7 @@ title: Caravan – Oustanding event management
           <div class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
         </li>
         <li>
           <div class="attended-badge"> 
@@ -130,6 +142,7 @@ title: Caravan – Oustanding event management
           <div class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
         </li>
       </ul>
   </section><!-- end of the past events section -->

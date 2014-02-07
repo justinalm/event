@@ -26,7 +26,6 @@
 
 // Specific project styles, add any section specific sass modules here
 @import "layout";
-@import "breakpoints";
 
 // Additional styles to think about
 @import "retina";
@@ -37,3 +36,7 @@
 
 // For anything quick and dirty that needs thrown in
 @import "shame";
+@import "admin-edit";
+
+/* Responsive Stuff */
+@import "breakpoints";

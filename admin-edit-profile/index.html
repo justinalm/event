@@ -1,19 +1,28 @@
 ---
-layout: default
-title: Caravan – Oustanding event management
+layout: admin
+title: Admin – Oustanding event management
 ---
 
+<div class="full-width-grey">
+  <div class="right">
+    <a href="/admin" class="btn-primary edit-profile-button">Save</a>
+    <a href="/admin">Cancel</a>
+  </div>
+</div>
+
 <div class="masthead" style="background-image: url(/img/brand-application.jpg);">
+
+  <i class="icon-pencil icon-2x logo-masthead-pencil"></i>
+
   <div class="masthead-content-wrapper">
     <div class="group-info">
-      <a href="/" title="Group front page">
-          <div class="group-logo">
-          <img src="img/caravan-mark.png" class="img-responsive" alt="Responsive image"/>
-        </div>
-      </a><!-- group-logo -->
+      <div class="group-logo">
+        <img src="/img/caravan-mark.png" class="img-responsive" alt="Responsive image"/>
+        <i class="icon-pencil icon-2x logo-masthead-pencil"></i>
+      </div><!-- group-logo -->
       <div class="signup-form">
-        <h1><img src="/img/caravan-logo-inline.png" alt="Responsive image"/></h1>
-        <p>Meetup is terrible for large groups. <strong>Caravan is not.</strong> Caravan provides your group with a simple, beautiful way to post events and take RSVPs. There is no group messaging and no clutter.</p>
+        <h1 class="editing-bg"><img src="/img/caravan-logo-inline.png" alt="Responsive image"/><span class="h1-edit-pencil"></h1>
+        <p class="editing-bg">Meetup is terrible for large groups. <strong>Caravan is not.</strong> Caravan provides your group with a simple, beautiful way to post events and take RSVPs. There is no group messaging and no clutter.</p>
         <p class="subscribe">Sign up to be a founding customer:</p>
         <form>
           <div class="item">
@@ -21,18 +30,21 @@ title: Caravan – Oustanding event management
           </div>
           <button class="btn-primary">go</button>
         </form>
-        <p class="follow-link"><i class="icon-twitter"></i>&nbsp;Follow <a class="follow-link" href="http://www.twitter.com/caravanapp/">@Caravanapp</a></p>
+        <p class="follow-link"><i class="icon-twitter"></i>&nbsp;Follow <a class="follow-link editing-bg" href="http://www.twitter.com/caravanapp/">@Caravanapp</a></p>
       </div><!-- signup-form -->
     </div><!-- group-info -->
   </div><!-- masthead-content-wrapper -->
 </div><!-- masthead -->
 
-<p class="call-out"><a href="http://www.twitter.com/caravanapp/" title="Caravan Twitter account">Get in touch</a> to suggest speakers for our next event. Events usually happen every two months.</p>
+<p class="call-out editing-bg"><a href="http://www.twitter.com/caravanapp/" title="Caravan Twitter account">Get in touch</a> to suggest speakers for our next event. Events usually happen every two months.</p>
 
 <article>
 
   <!-- this section is for upcoming events -->
   <section>
+
+    <a href="#" class="btn-primary add-event-button" title="add an event">+ Add An Event</a>
+
     <h2 class="chunky-h2">Upcoming Events</h2>
       <ul class="event-list">
         <li>
@@ -86,6 +98,7 @@ title: Caravan – Oustanding event management
           <div class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
         </li>
         <li>
           <div class="attended-badge"> 
@@ -108,6 +121,7 @@ title: Caravan – Oustanding event management
           <div class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
         </li>
         <li>
           <div class="attended-badge"> 
@@ -130,6 +144,7 @@ title: Caravan – Oustanding event management
           <div class="flexible-container">
           <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5205.245184441134!2d-123.11453968127891!3d49.28354818642791!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x977fcd5c0dc6bd3b!2sHarbour+Centre!5e0!3m2!1sen!2sca!4v1391563818485" width="725" height="200" frameborder="0" style="border:0"></iframe>
           </div><!-- flexible-container -->
+
         </li>
       </ul>
   </section><!-- end of the past events section -->

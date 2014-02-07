@@ -8,6 +8,11 @@ a{
 	}
 }
 
+a.event-title {
+  text-decoration: none;
+  font-weight: 700;
+}
+
 // Default button
 .btn{
   @include border-radius($btn-br);
@@ -64,4 +69,10 @@ a{
   &:active{
 
   }
+}
+
+.login-button {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  padding: 7px 12px
 }

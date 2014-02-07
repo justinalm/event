@@ -10,14 +10,24 @@
 .header-wrapper {
 	max-width: 984px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 
 header {
 	background: #ffffff;
 	margin: 0;
-	padding: 10px 20px;
+	padding: $padding/2 $padding;
 	border-bottom: 1px solid #ebebeb;
 }
+
+.login-form {
+	float: left;
+	display: block;
+	width: auto;
+	padding: 13px 0 0 0;
+}
+
+/* Group Home */
 
 .masthead {
 	max-width: 1024px;
@@ -28,7 +38,12 @@ header {
 	background-repeat: no-repeat;
 	background-position: 0 0;
 	margin: 0 auto;
-	padding: $padding;
+	padding: $padding $padding 30px $padding;
+}
+
+.masthead-content-wrapper {
+	margin: 0 auto;
+	max-width: 720px;
 }
 
 .group-info {
@@ -38,6 +53,7 @@ header {
 }
 
 .group-logo {
+	position: relative;
 	width: 100px;
 	margin: 0 0 10px 0;
 }
@@ -45,6 +61,45 @@ header {
 .signup-form {
 	width: 100%;
 }
+
+/* Single Events */
+.single-masthead {
+	max-width: 1024px;
+	position: relative;
+	color: #ffffff;
+	font-weight: 300;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	margin: 0 auto 20px auto;
+	padding: $padding $padding 10px $padding;
+	overflow: hidden;
+}
+
+.event-masthead-wrapper {
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.single-group-logo {
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin: 0 0 20px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.meetup-title-and-tagline {
+	display: inline-block;
+	width: 100%;
+	vertical-align: middle;
+	box-sizing: border-box;
+}
+
+/* Back to Universal Styles */
 
 article {
 	padding: 0 $padding;

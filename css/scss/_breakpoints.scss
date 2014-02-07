@@ -1,17 +1,55 @@
 /* Mobile-first styles FTW */
 @media all and (min-width:600px) {
+	
+	h1.group-logo-header {
+		margin: 0;
+	}
+
 	.group-logo {
 		float: left;
-		width: 50%;
+		width: 49%;
+		text-align: center;
+		margin: 0 2% 0 0;
 	}
-	.group-logo img {
-		float: right;
-		margin: 10px 40px 0 0;
-	}
+
 	.signup-form {
 		float: left;
-		width: 40%;
+		width: 49%;
 	}
+
+	/* Event Masthead */
+	.event-masthead-wrapper {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.single-group-logo {
+		width: 35%;
+		margin: 0 5% 0 0;
+	}
+
+	.meetup-title-and-tagline {
+		width: 60%;
+	}
+
+	/* RSVP Avatars */
+	ul.rsvp-list > li {
+		width: 15%;
+		height: 140px;
+		margin: 0 6.25% $padding 0;
+	}
+
+	ul.rsvp-list > li:nth-child(2n) {
+		width: 15%;
+		margin: 0 6.25% $padding 0;
+	}
+
+	ul.rsvp-list > li:nth-child(5n) {
+		margin: 0 0 $padding 0;
+	}
+
+	/* Footer */
+
 	.footer-left {
 		float: left;
 		overflow: hidden;
@@ -26,40 +64,59 @@
 
 	/* Type */
 	h1 {
-  font-size: 48px;
+		font-size: 48px;
 	}
 
 	h2 {
-	  font-size: 32px;
+		font-size: 32px;
 	}
 
 	.chunky-h2 {
-	  max-width: 100%;
-	  background: #EBEBEB;
-	  padding: 10px 20px;
-	  margin: 0 0 20px 0;
+		max-width: 100%;
+		background: #EBEBEB;
+		padding: 10px 20px;
+		margin: 0 0 20px 0;
 	}
 
 	h3 {
-	  font-size: 24px;
-	  font-weight: 600;
-	  font-style: normal;
+		font-size: 24px;
+		font-weight: 600;
+		font-style: normal;
 	}
 
 	h4 {
-	  font-size: 18px;
-	  font-weight: 600;
-	  font-style: normal;
+		font-size: 18px;
+		font-weight: 600;
+		font-style: normal;
 	}
 
 	h5 {
-	  font-size: 18px;
-	  font-style: normal;
-	  font-weight: normal;
+		font-size: 18px;
+		font-style: normal;
+		font-weight: normal;
 	}
 
 	p {
-	  font-size: 18px;
+		font-size: 18px;
+	}
+
+	/* Admin Styles */
+	.add-event-button {
+		float: right;
+		width: auto;
+		text-align: center;
+		margin: 8px 8px 8px 0;
+		overflow: hidden;
+	}
+
+	.h1-edit-pencil {
+		font-size: 40%;
+		margin: 0;
+	}
+
+	.h2-edit-pencil {
+		font-size: 50%;
+		margin: 0;
 	}
 }
 
@@ -67,4 +124,34 @@
 	article {
 		width: 70%;
 	}
+
+	h1.group-logo-header {
+		float: left;
+		display: inline-block;
 	}
+
+	.login-form {
+		float: right;
+		display: inline-block;
+	}
+
+	ul.rsvp-list > li {
+		width: 15%;
+		height: 140px;
+		margin: 0 6.25% $padding 0;
+	}
+		/* Event Masthead */
+	.event-masthead-wrapper {
+		margin: 0 auto;
+		width: 65%;
+	}
+
+	.single-group-logo {
+		width: 28%;
+		margin: 0 2% 0 0;
+	}
+
+	.meetup-title-and-tagline {
+		width: 70%;
+	}
+}

@@ -47,3 +47,28 @@ ul.nolist > li {
 ul.nolist > li p {
 	margin: 0;
 }
+
+.rsvp-list {
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	margin: $padding 0 0 0;
+	overflow: hidden;
+}
+
+ul.rsvp-list > li {
+	float: left;
+	width: 48%;
+	height: auto;
+	margin: 0 4% $padding/2 0;
+	overflow: hidden;
+}
+
+ul.rsvp-list > li img {
+	border-radius: $br;
+	@include shadows-for-images;
+}
+
+ul.rsvp-list > li:nth-child(2n) {
+	margin: 0 0 $padding/2 0;
+}

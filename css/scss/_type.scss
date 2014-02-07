@@ -29,6 +29,12 @@ h1 {
   font-size: 20px;
 }
 
+h1.group-logo-header {
+  display: block;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
 h2 {
   font-size: 20px;
 }
@@ -60,6 +66,17 @@ h5 {
 
 p {
   font-size: 16px;
+}
+
+.signup {
+  display: inline-block;
+  margin: 0 0 0 5px;
+  vertical-align: middle;
+}
+
+.or {
+  font-family: "minion-pro", "Georgia", serif;
+  font-style: italic;
 }
 
 .subscribe {
@@ -110,6 +127,13 @@ p {
   font-style: italic;
   line-height: 1;
   margin: 25px auto;
+}
+
+.attendee-name {
+  font-size: 12px;
+  text-align: center;
+  line-height: 1.1;
+  margin: 0 0 10px 0;
 }
 
 blockquote {
