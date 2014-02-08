@@ -378,6 +378,16 @@ form .error input[type=text], form .error input[type=email], form .error input[t
 /* line 25, scss/_other.scss */
 hr { border: none; border-bottom: 1px solid #EBEBEB; margin: 20px 0; }
 
+/* Hexagons */
+/* line 33, scss/_other.scss */
+.hexagon { height: 150px; width: 250px; background: -webkit-linear-gradient(bottom, #f1f1f1 0%, #fdfdfd 100%); border-radius: 8px; position: relative; border-right: 2px dashed #333; border-left: 2px dashed #333; text-align: center; line-height: 150px; color: #E0E0E0; text-shadow: -1px -1px #c9c9c9, -2px -1px rgba(201, 201, 201, 0.7), 1px 1px white, 2px 1px white; }
+
+/* line 47, scss/_other.scss */
+.hexagon:before { content: " "; z-index: -100; position: absolute; height: 146px; width: 146px; background: #fdfdfd; top: -70px; left: 52px; right: 0; border-radius: 8px; -webkit-transform: rotate(45deg); -webkit-transform: rotate(45deg) skew(-12deg, -12deg); border-top: 2px dashed #333; border-left: 2px dashed #333; }
+
+/* line 64, scss/_other.scss */
+.hexagon:after { content: " "; position: absolute; height: 146px; z-index: -100; width: 146px; background: #F1F1F1; bottom: -70px; left: 52px; right: 0; border-radius: 8px; -webkit-transform: rotate(45deg) skew(-12deg, -12deg); border-bottom: 2px dashed #333; border-right: 2px dashed #333; }
+
 /*!
  *  Font Awesome 3.2.0
  *  the iconic font designed for Bootstrap
@@ -1689,7 +1699,7 @@ header { background: #ffffff; margin: 0; padding: 10px 20px; border-bottom: 1px 
 
 /* Group Home */
 /* line 32, scss/_layout.scss */
-.masthead { max-width: 1024px; position: relative; color: #ffffff; font-weight: 300; background-size: cover; background-repeat: no-repeat; background-position: 0 0; margin: 0 auto; padding: 20px 20px 30px 20px; }
+.masthead { max-width: 1024px; position: relative; color: #ffffff; font-weight: 300; background-size: cover; background-repeat: no-repeat; background-position: 0 0; margin: 0 auto; padding: 30px 20px; }
 
 /* line 44, scss/_layout.scss */
 .masthead-content-wrapper { margin: 0 auto; max-width: 720px; }
@@ -1701,32 +1711,32 @@ header { background: #ffffff; margin: 0; padding: 10px 20px; border-bottom: 1px 
 .group-logo { position: relative; width: 100px; margin: 0 0 10px 0; }
 
 /* line 61, scss/_layout.scss */
-.signup-form { width: 100%; }
+.signup-form { width: 100%; text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7); }
 
 /* Single Events */
-/* line 66, scss/_layout.scss */
+/* line 67, scss/_layout.scss */
 .single-masthead { max-width: 1024px; position: relative; color: #ffffff; font-weight: 300; background-size: cover; background-repeat: no-repeat; background-position: 0 0; margin: 0 auto 20px auto; padding: 20px 20px 10px 20px; overflow: hidden; }
 
-/* line 79, scss/_layout.scss */
+/* line 80, scss/_layout.scss */
 .event-masthead-wrapper { position: relative; display: block; margin: 0 auto; width: 100%; }
 
-/* line 86, scss/_layout.scss */
+/* line 87, scss/_layout.scss */
 .single-group-logo { float: left; display: inline-block; width: 50%; margin: 0 0 20px 0; text-align: center; box-sizing: border-box; }
 
-/* line 95, scss/_layout.scss */
+/* line 96, scss/_layout.scss */
 .meetup-title-and-tagline { display: inline-block; width: 100%; vertical-align: middle; box-sizing: border-box; }
 
 /* Back to Universal Styles */
-/* line 104, scss/_layout.scss */
+/* line 105, scss/_layout.scss */
 article { padding: 0 20px; margin: 0 auto; }
 
-/* line 109, scss/_layout.scss */
+/* line 110, scss/_layout.scss */
 footer { background: #ffffff; margin: 0; padding: 20px; border-top: 1px solid #ebebeb; }
 
-/* line 116, scss/_layout.scss */
+/* line 117, scss/_layout.scss */
 .footer-wrapper { max-width: 984px; margin: 0 auto; overflow: hidden; }
 
-/* line 122, scss/_layout.scss */
+/* line 123, scss/_layout.scss */
 .footer-left { margin: 0 0 10px 0; }
 
 @media print { /* line 2, scss/_print.scss */

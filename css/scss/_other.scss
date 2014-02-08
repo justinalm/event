@@ -27,3 +27,52 @@ hr{
 	border-bottom:1px solid #EBEBEB;
 	margin:$padding 0;
 }
+
+/* Hexagons */
+
+.hexagon {
+    height:150px;
+    width:250px;
+    background:-webkit-linear-gradient(bottom, rgb(241,241,241) 0%, rgb(253,253,253) 100%);
+    border-radius:8px;
+    position:relative;
+    border-right:2px dashed #333;
+    border-left:2px dashed #333;
+    text-align:center;
+    line-height:150px;
+    color:#E0E0E0;
+    text-shadow: -1px -1px rgba(201,201,201,1), -2px -1px rgba(201,201,201,.7), 1px 1px #FFF, 2px 1px #FFF;
+}
+
+.hexagon:before {
+    content:" ";
+    z-index:-100;
+    position:absolute;
+    height:146px;
+    width:146px;
+    background:rgb(253,253,253);
+    top:-70px;
+    left:52px;
+    right:0;
+    border-radius:8px;
+    -webkit-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg) skew(-12deg, -12deg);
+    border-top:2px dashed #333;
+    border-left:2px dashed #333;
+}
+
+.hexagon:after {
+    content:" ";
+    position:absolute;
+    height:146px;
+    z-index:-100;
+    width:146px;
+    background:#F1F1F1;
+    bottom:-70px;
+    left:52px;
+    right:0;
+    border-radius:8px;
+    -webkit-transform:rotate(45deg) skew(-12deg, -12deg);
+    border-bottom:2px dashed #333;
+    border-right:2px dashed #333;
+}
